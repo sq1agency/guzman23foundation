@@ -1,0 +1,25 @@
+/* CSS Document */
+@import url("reset.css");
+
+/**
+ * General Styles
+ */
+body { font: 14px/20px Verdana, Helvetica, Arial, sans-serif; color: #333333; background: #FFFFFF url(/css/images/bg_body.jpg) repeat-x left top; text-align: center; padding-bottom:30px; }
+a { color:#CC0000; }
+a:hover { color:#990000; text-decoration: underline; }
+hr { border-top: 1px solid #CCCCCC; margin: 30px 0px;}
+ul { list-style-type: disc; list-style-position: outside; padding: 6px 0 6px 16px; }
+ol { list-style-type: decimal; list-style-position: outside; padding: 6px 0 6px 16px; }
+p { padding: 6px 0px; }
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; }
+em { font-style: oblique;}
+strong, b { font-weight: bold; }
+
+/**
+ * General Classes
+ */
+.clear { clear: both; }
+.clear:after { content: ""; }
