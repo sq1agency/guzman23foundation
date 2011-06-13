@@ -17,7 +17,12 @@
 <body>
 	<div id="header">
 		<div id="logo"></div>
-		<a id="donate_button" href="javascript:void(0);" style="visibility:hidden;"></a>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="8CSHWSXLHFJRC">
+			<input id="donate_button" type="submit" name="submit" value="">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
 		<p id="company_info">P.O. BOX 884 | Colleyville, TX 78034 <a href="mailto:info@guzman23foundation.org">info@guzman23foundation.org</a></p>
 	</div>
 	<div id="hero">

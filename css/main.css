@@ -25,7 +25,7 @@ p.error b { font-weight: normal; }
 
 #header { height: 70px; padding: 20px 0px; margin-top: 20px; }
 	#logo { width: 197px; height: 70px; background: url(/css/images/logo.png) no-repeat center center; float: left; }
-	#donate_button { float: right; clear: right; display: inline-block; width: 118px; height: 29px; background: url(/css/images/button_donate.png) no-repeat center center; }
+	#donate_button { float: right; clear: right; display: inline-block; width: 118px; height: 29px; background: url(/css/images/button_donate.png) no-repeat center center; border: none; cursor: pointer; }
 	#company_info { float: right; clear: right; background-color: #A0DCDC; color: #FFFFFF; padding: 0px 0px 0px 6px; font-size: 10px; line-height: 20px; margin-top: 10px; text-transform: uppercase; letter-spacing: 2px; font-weight: normal; }
 	#company_info a { background-color: #5156D4; color: #FFFFFF; display: inline-block; padding: 0px 6px; }
 
