@@ -41,6 +41,7 @@
 				<li class="alt">
 					<h2>7/20/2011 <b>Wine and Dinner Fundraiser</b></h2>
 					<p>Join us at Grady&rsquo;s Restaurant in Fort-Worth  and help raise funds for Alzheimer&rsquo;s research and relief funding.</p>
+					<p>Grady&rsquo;s Restaurant<br>2443 Forest Park Blvd.<br>Fort Worth, TX 76110<br>817-922-9980</p>
 				</li>
 				<li>
 					<h2>6/24/2011 <b>Martinis at M-Lounge, Ft. Worth</b></h2>
