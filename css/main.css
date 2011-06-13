@@ -1,25 +1,64 @@
 /* CSS Document */
 @import url("reset.css");
 
-/**
- * General Styles
- */
-body { font: 14px/20px Verdana, Helvetica, Arial, sans-serif; color: #333333; background: #FFFFFF url(/css/images/bg_body.jpg) repeat-x left top; text-align: center; padding-bottom:30px; }
-a { color:#CC0000; }
-a:hover { color:#990000; text-decoration: underline; }
+/* @group General Styles ---------------------------------------------------------------------------------------- */
+body { font: bold 11px/14px Helvetica, Verdana, Arial, sans-serif; color: #666666; background: #FFFFFF url(/css/images/bg_body.jpg) repeat-x left top; text-align: center; padding-bottom:30px; }
+a { color:#F59830; }
+a:hover { text-decoration: underline; }
 hr { border-top: 1px solid #CCCCCC; margin: 30px 0px;}
-ul { list-style-type: disc; list-style-position: outside; padding: 6px 0 6px 16px; }
-ol { list-style-type: decimal; list-style-position: outside; padding: 6px 0 6px 16px; }
 p { padding: 6px 0px; }
-h1 { font-size: 24px; }
-h2 { font-size: 20px; }
-h3 { font-size: 16px; }
-h4 { font-size: 14px; }
+h1 { font-size: 12px; line-height: 16px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #818181; margin-bottom: 4px; }
 em { font-style: oblique;}
 strong, b { font-weight: bold; }
+/* @end */
 
-/**
- * General Classes
- */
+/* @group General Classes --------------------------------------------------------------------------------------- */
 .clear { clear: both; }
 .clear:after { content: ""; }
+p.message { padding: 6px; background-color: #5156D4; color: #FFFFFF; }
+p.error { padding: 6px; background-color: #F59830; color: #FFFFFF; }
+p.error b { font-weight: normal; }
+/* @end */
+
+/* @group Layout ------------------------------------------------------------------------------------------------ */
+#header, #hero, #content { width: 800px; margin: 5px auto; padding: 0px 20px; text-align: left; overflow: hidden; }
+
+#header { height: 70px; padding: 20px 0px; margin-top: 20px; }
+	#logo { width: 197px; height: 70px; background: url(/css/images/logo.png) no-repeat center center; float: left; }
+	#donate_button { float: right; clear: right; display: inline-block; width: 118px; height: 29px; background: url(/css/images/button_donate.png) no-repeat center center; }
+	#company_info { float: right; clear: right; background-color: #A0DCDC; color: #FFFFFF; padding: 0px 0px 0px 6px; font-size: 10px; line-height: 20px; margin-top: 10px; text-transform: uppercase; letter-spacing: 2px; font-weight: normal; }
+	#company_info a { background-color: #5156D4; color: #FFFFFF; display: inline-block; padding: 0px 6px; }
+
+#hero { height: 292px; padding: 10px 0px; }
+	#mission { width: 634px; height: 292px; background: url(/css/images/mission.gif) no-repeat left top; float: left; clear: right; }
+		#mission_text { font-size: 12px; font-weight: normal; color: #FFFFFF; width: 300px; float: right; padding: 5px 50px 0px 0px; }
+	#putting { display: inline-block; width: 143px; height: 292px; background: url(/css/images/putting.gif) no-repeat left top; float: right; clear: right; }
+
+#content { }
+	#left { float: left; clear: left; width: 525px; }
+	#right { float: right; clear: right; width: 250px; }
+/* @end */
+
+/* @group Form -------------------------------------------------------------------------------------------------- */
+form p input[type="text"] { background-color: #E2F5FC; text-transform: uppercase; color: #888888; padding: 4px; border: 1px solid #99A6AA; margin: 3px 0px; clear: both; 
+	-moz-box-shadow:inset 0 0 4px #9BA8AD; -o-box-shadow:inset 0 0 4px #9BA8AD; -webkit-box-shadow:inset 0 0 4px #9BA8AD; box-shadow:inset 0 0 4px #9BA8AD;
+}
+form p input[type="text"]:focus { background-color: #E5F8FF; color: #666666; 
+	-moz-box-shadow:inset 0 0 0 #9BA8AD; -o-box-shadow:inset 0 0 0 #9BA8AD; -webkit-box-shadow:inset 0 0 0 #9BA8AD; box-shadow:inset 0 0 0 #9BA8AD;
+}
+form p input[type="text"].error { border-color: #F59830; }
+form p input.half { width: 112px; }
+form p input.full { width: 240px; }
+form p input.left { float: left; clear: left; }
+form p input.right { float: right; clear: right; }
+#get_info { border: none; display: inline-block; width: 118px; height: 29px; background: url(/css/images/button_getinfo.png) no-repeat center center; cursor: pointer; }
+/* @end */
+
+/* @group News -------------------------------------------------------------------------------------------------- */
+#news { overflow: hidden; }
+	#news li { display: inline-block; float: left; clear: left; width: 250px; margin: 5px 12px 5px 0; word-wrap: break-word; min-height: 150px; }
+	#news li.alt { float: right; clear: right; margin: 5px 0 5px 12px; }
+	#news li h2 { font-weight: bold; }
+	#news li h2 b { color: #F59830; }
+	#news li p { font-weight: normal; }
+/* @end */
