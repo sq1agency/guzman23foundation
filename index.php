@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div id="header">
-		<div id="logo"></div>
+		<a id="logo" href="/"></a>
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="8CSHWSXLHFJRC">
@@ -32,7 +32,7 @@
 				<p>It&rsquo;s my desire to help families care for their loved ones in their own home as long as possible. A secondary goal is to help improve Alzheimer&rsquo;s facilities, making them a place where families feel their loved ones will be cared for with compassion.</p>
 			</div>
 		</div>
-		<a id="putting" href="/documents/putting-for-a-purpose.pdf" target="_blank"></a>
+		<a id="putting" href="/tournament.php"></a>
 	</div>
 	<div id="content">
 		<div id="left">
