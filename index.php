@@ -27,7 +27,7 @@ include('includes/header.php');
 					<p><em>If you would like to donate, sponsor, or volunteer for this event contact <a href="mailto:mc@guzman23foundation.org?subject=<?php echo rawurlencode('Website Launch Party'); ?>">mc@guzman23foundation.org</a></em></p>
 				</li>
 				<li class="alt">
-					<h2>7/20/2011 <b>Wine and Dinner Fundraiser</b></h2>
+					<h2>8/17/2011 <b>Wine and Dinner Fundraiser</b></h2>
 					<p>Join us at Grady&rsquo;s Restaurant in Fort-Worth  and help raise funds for Alzheimer&rsquo;s research and relief funding.</p>
 					<p>Grady&rsquo;s Restaurant<br>2443 Forest Park Blvd.<br>Fort Worth, TX 76110<br>817-922-9980</p>
 				</li>
