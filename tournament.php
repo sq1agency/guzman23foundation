@@ -5,8 +5,8 @@ $head_scripts  = '<script src="/scripts/js/jquery.easing.1.3.js" type="text/java
 $head_scripts .= '	<script type="text/javascript">'."
 		$(document).ready(function() {
 		    $('.view_desc').click(function() {
-			    var $desc = $(this);
-				$desc.parent().next().next().next('.description').slideToggle('slow');
+			    var desc = $(this);
+				desc.parent().next().next().next('.description').slideToggle('slow');
 		    });
 		});
 	</script>"."\n";
