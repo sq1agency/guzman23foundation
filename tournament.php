@@ -16,14 +16,20 @@ $title = 'Putting For A Purpose Golf Tournament';
 include('includes/header.php');
 ?>
 	<div id="content">
-		<a id="putting_left" href="/documents/putting-for-a-purpose.pdf" target="_blank" style="float:left;"></a>
+		<div id="left-sm">
+			<a id="putting_left" href="/documents/putting-for-a-purpose.pdf" target="_blank"></a>
+			<div id="sponsors">
+				<h1>Title Sponsor</h1>
+				<p><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent-sm.jpg"></p>
+			</div>
+		</div>
 		<div id="sponsorships">
 			<h1>Sponsorships</h1>
 			<ul>
 				<li>
 					<p class="title"><b>Title Sponsorship</b> &ndash; <a href="javascript:void(0);" class="view_desc">View Description</a></p>
 					<div class="purchase_form">
-						<p class="nopurchase">Contact to Purchase</p>
+						<p class="nopurchase">Sold Out</p>
 					</div>
 					<p class="price">$25,000</p>
 					<div class="description">
@@ -173,74 +179,6 @@ include('includes/header.php');
 					<p class="price">$50</p>
 					<div class="description">
 						<p>&ldquo;In Loving Memory&rdquo; or &ldquo;In Honor of&rdquo; signage along the golf course lane</p>
-					</div>
-				</li>
-			</ul>
-			<h1>Gala Program Advertising</h1>
-			<ul>
-				<li>
-					<p class="title"><b>Full Page Ad</b> &ndash; <a href="javascript:void(0);" class="view_desc">View Description</a></p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="purchase_form" target="_blank">
-						<input class="purchase" type="submit" name="submit" value="">
-						<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="U38WQH5M45DHQ"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					<p class="price">$800</p>
-					<div class="description">
-						<p>PDF Format</p>
-						<p>Full advertising specifications will be sent by separate email.</p>
-						<p>* To design and create ad mechanical, please also purchase <b>Design Graphic Set Ad</b></p>
-					</div>
-				</li>
-				<li>
-					<p class="title"><b>Half Page Ad</b> &ndash; <a href="javascript:void(0);" class="view_desc">View Description</a></p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="purchase_form" target="_blank">
-						<input class="purchase" type="submit" name="submit" value="">
-						<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="9W5NXF6VA85QW"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					<p class="price">$400</p>
-					<div class="description">
-						<p>PDF Format</p>
-						<p>Full advertising specifications will be sent by separate email.</p>
-						<p>* To design and create ad mechanical, please also purchase <b>Design Graphic Set Ad</b></p>
-					</div>
-				</li>
-				<li>
-					<p class="title"><b>Third Page Ad</b> &ndash; <a href="javascript:void(0);" class="view_desc">View Description</a></p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="purchase_form" target="_blank">
-						<input class="purchase" type="submit" name="submit" value="">
-						<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="VUCULD7R8LFPU"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					<p class="price">$200</p>
-					<div class="description">
-						<p>PDF Format</p>
-						<p>Full advertising specifications will be sent by separate email.</p>
-						<p>* To design and create ad mechanical, please also purchase <b>Design Graphic Set Ad</b></p>
-					</div>
-				</li>
-				<li>
-					<p class="title"><b>Quarter Page Ad</b> &ndash; <a href="javascript:void(0);" class="view_desc">View Description</a></p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="purchase_form" target="_blank">
-						<input class="purchase" type="submit" name="submit" value="">
-						<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="W7GR962YSTG2L"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					<p class="price">$100</p>
-					<div class="description">
-						<p>PDF Format</p>
-						<p>Full advertising specifications will be sent by separate email.</p>
-						<p>* To design and create ad mechanical, please also purchase <b>Design Graphic Set Ad</b></p>
-					</div>
-				</li>
-				<li>
-					<p class="title"><b>Design Graphic Set Ad</b> &ndash; <a href="javascript:void(0);" class="view_desc">View Description</a></p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="purchase_form" target="_blank">
-						<input class="purchase" type="submit" name="submit" value="">
-						<input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="BWW9REH7CNUUY"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-					</form>
-					<p class="price">$200</p>
-					<div class="description">
-						<p>PDF Format</p>
-						<p>Full advertising specifications will be sent by separate email.</p>
-						<p>* To design and create ad mechanical, please also purchase <b>Design Graphic Set Ad</b></p>
 					</div>
 				</li>
 			</ul>
