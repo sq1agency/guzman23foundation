@@ -48,7 +48,7 @@ include('includes/header.php');
 		</div>
 		<div id="pfap_sponsors_logos">
 			<h1>Putting For A Purpose Sponsors</h1>
-			<p><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent.jpg" class="sponsor-logo"></p>
+			<p><a href="http://www.pnkinc.com/" target="_blank"><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent.jpg" class="sponsor-logo"></a></p>
 		</div>
 	</div>
 <?php include('includes/footer.php'); ?>
