@@ -20,7 +20,7 @@ include('includes/header.php');
 			<a id="putting_left" href="/documents/putting-for-a-purpose.pdf" target="_blank"></a>
 			<div id="sponsors">
 				<h1>Title Sponsor</h1>
-				<p><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent-sm.jpg"></p>
+				<p><a href="http://www.pnkinc.com/" target="_blank"><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent-sm.jpg"></a></p>
 			</div>
 		</div>
 		<div id="sponsorships">
