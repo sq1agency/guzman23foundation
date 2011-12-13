@@ -1,4 +1,5 @@
 <?php 
+include('scripts/php/config.php');
 include('scripts/php/signup_form.php');
 include('includes/header.php'); 
 ?>
@@ -38,9 +39,9 @@ include('includes/header.php');
 			<?php if(!$success): ?>
 			<form action="/" method="post">
 				<p>
-					<input class="half left<?php echo array_key_exists('fname', $error_parts) ? ' error':''; ?>" type="text" name="fname" id="fname" value="<?php echo isset($fname) ? $fname:'First Name'; ?>" placeholder="First Name" onblur="if(this.value=='') this.value = 'First Name';" onfocus="if(this.value=='First Name') this.value = '';">
-					<input class="half right<?php echo array_key_exists('lname', $error_parts) ? ' error':''; ?>" type="text" name="lname" id="lname" value="<?php echo isset($lname) ? $lname:'Last Name'; ?>" placeholder="Last Name" onblur="if(this.value=='') this.value = 'Last Name';" onfocus="if(this.value=='Last Name') this.value = '';">
-					<input class="full <?php echo array_key_exists('email', $error_parts) ? ' error':''; ?>" type="text" name="email" id="email" value="<?php echo isset($email) ? $email:'Email Address'; ?>" placeholder="Email Address" onblur="if(this.value=='') this.value = 'Email Address';" onfocus="if(this.value=='Email Address') this.value = '';">
+					<input class="half left<?php echo isset($error_parts) && is_array($error_parts) && array_key_exists('fname', $error_parts) ? ' error':''; ?>" type="text" name="fname" id="fname" value="<?php echo isset($fname) ? $fname:'First Name'; ?>" placeholder="First Name" onblur="if(this.value=='') this.value = 'First Name';" onfocus="if(this.value=='First Name') this.value = '';">
+					<input class="half right<?php echo isset($error_parts) && is_array($error_parts) && array_key_exists('lname', $error_parts) ? ' error':''; ?>" type="text" name="lname" id="lname" value="<?php echo isset($lname) ? $lname:'Last Name'; ?>" placeholder="Last Name" onblur="if(this.value=='') this.value = 'Last Name';" onfocus="if(this.value=='Last Name') this.value = '';">
+					<input class="full <?php echo isset($error_parts) && is_array($error_parts) && array_key_exists('email', $error_parts) ? ' error':''; ?>" type="text" name="email" id="email" value="<?php echo isset($email) ? $email:'Email Address'; ?>" placeholder="Email Address" onblur="if(this.value=='') this.value = 'Email Address';" onfocus="if(this.value=='Email Address') this.value = '';">
 				</p>
 				<p class="clear"><input id="get_info" type="submit" name="submit" value=""><input type="hidden" name="do" value="get_info"></p>
 			</form>

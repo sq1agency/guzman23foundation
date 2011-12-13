@@ -20,8 +20,7 @@ if(isset($_POST['do']) && $_POST['do']=='get_info') {
 	if(is_array($error_parts)) {
 		$message = '<p class="error">Please correct the following error'.( count($error_message_text) > 1 ? 's':'' ).':<br><b>'.( is_array($error_message_text) ? implode('</b>, <b>', $error_message_text) : $error_message_text ).'</b></p>';
 	} else {
-		$mailto = 'webdev@sq1agency.com'; # Dev testing
-// 		$mailto = 'info@guzman23foundation.org'; # Live/Production
+		$mailto = (defined('ENVR') && ENVR == 'production') ? 'info@guzman23foundation.org' : 'webdev@sq1agency.com';
 		$mailfrom = "FROM: Guzman23Foundation.org <info@guzman23foundation.org>";
 		$mailsubject = "[Guzman23Foundation.org] Information Request";
 		$mailbody = ucfirst(strtolower($fname)) . " would like to receive more information about the Guzman 23 Foundation." . "\n";

@@ -1,5 +1,5 @@
 <?php 
-include('scripts/php/signup_form.php'); 
+include('scripts/php/config.php');
 
 $head_scripts  = '<script src="/scripts/js/jquery.easing.1.3.js" type="text/javascript"></script>';
 $head_scripts .= '	<script type="text/javascript">'."
