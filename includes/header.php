@@ -10,9 +10,22 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="/css/images/touch-icon-iphone4.png" />
 	<title><?php echo isset($title) ? $title.' | Guzman23Foundation' : 'Guzman23Foundation'; ?></title>
 	<link rel="stylesheet" href="/css/main.css" type="text/css" media="all" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+	<script src="/scripts/js/jquery.cycle.all.js" type="text/javascript"></script>
 	<script src="/scripts/js/functions.js" type="text/javascript"></script>
 	<?php echo isset($head_scripts) ? $head_scripts : ''; ?>
+	<!-- BEGIN Ad Banners -->
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			$('#ad_banners').cycle({ 
+				fx:     'fade',
+				speed:  'slow', 
+				timeout: 6000,
+				random: 1
+			});
+		});
+	</script>
+	<!-- END Ad Banners -->
 </head>
 <body>
 	<div id="header">

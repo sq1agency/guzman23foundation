@@ -10,7 +10,7 @@ include('includes/header.php');
 				<p>It&rsquo;s my desire to help families care for their loved ones in their own home as long as possible. A secondary goal is to help improve Alzheimer&rsquo;s facilities, making them a place where families feel their loved ones will be cared for with compassion.</p>
 			</div>
 		</div>
-		<a id="putting" href="/tournament.php"></a>
+		<div id="putting"></div>
 	</div>
 	<div id="content">
 		<div id="left">
@@ -49,7 +49,22 @@ include('includes/header.php');
 		</div>
 		<div id="pfap_sponsors_logos">
 			<h1>Putting For A Purpose Sponsors</h1>
-			<p><a href="http://www.pnkinc.com/" target="_blank"><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent.jpg" class="sponsor-logo"></a></p>
+			<div id="sponsors_logos">
+				<p><a href="http://www.pnkinc.com/" target="_blank"><img alt="Pinnacle Entertainment" src="/images/pinnacle-ent.jpg" class="sponsor-logo"></a></p>
+				<p>Pinnacle Entertainment, Inc., is a leading developer, owner and operator of casino gaming resorts. The company, based in Las Vegas, owns and operates casinos in Nevada, Louisiana, Indiana and Missouri.<br><a href="http://www.pnkinc.com" target="_blank">http://www.pnkinc.com</a></p>
+			</div>
+			<div id="ad_banners">
+				<a href="https://www.ldlcasino.com/" class="ad_banner" target="_blank"><img src="/images/ads/lauberge.jpg"></a>
+				<a href="http://www.pinnaclemychoice.com/" class="ad_banner" target="_blank"><img src="/images/ads/mychoice.jpg"></a>
+			</div>
+		</div>
+		<div id="pfap_directors">
+			<h1>Putting For A Purpose Directors</h1>
+			<p>Chairman/Co-Founder:<br>Honorable Mike Farhat</p>
+			<p>Co-Chairman:<br>Mr. James McIntire</p>
+			<p>Board Member:<br>Mr. Jack Heller</p>
+			<p>President/Founder:<br>Mr. Jose Guzman</p>
+			<p>V. President:<br>Mrs. Carlene  Altom</p>
 		</div>
 	</div>
 <?php include('includes/footer.php'); ?>
