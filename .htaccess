@@ -1,3 +1,23 @@
-# lose the 'www'
-RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,NC,L]
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+
+	# Prevent directory listing
+	Options -Indexes
+
+	# lose the 'www'
+	RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+	RewriteRule ^(.*)$ http://%1/$1 [R=301,NC,L,QSA]
+	
+	# restrict access to .git files/directories
+	RedirectMatch 403 /\.git.*$
+
+	# The following section automatically adds a trailing slash to all URLs
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+	RewriteCond %{HTTP:X-REQUESTED-WITH} !^(XMLHttpRequest)$
+	RewriteCond %{REQUEST_METHOD} !^HEAD$ 
+	RewriteCond %{REQUEST_METHOD} !^POST$ 
+	RewriteRule (.*)([^/])$ %{REQUEST_URI}/ [R=301,NC,L]
+</IfModule>
