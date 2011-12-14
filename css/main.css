@@ -9,6 +9,7 @@ hr { border-top: 1px solid #CCCCCC; margin: 30px 0px;}
 p { padding: 6px 0px; }
 h1 { font-size: 12px; line-height: 16px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #818181; margin-bottom: 4px; }
 h2.headline { font-size: 20px; line-height: normal; font-weight: bold; margin: 10px 0 4px; }
+h3.date { font-size: 14px; line-height: normal; font-weight: bold; margin: 0 0 8px; }
 em { font-style: oblique;}
 strong, b { font-weight: bold; }
 /* @end */
@@ -51,6 +52,8 @@ p.error b { font-weight: normal; }
 #ad_banners { float:right; clear:right; position:relative; width:534px; height:245px;}
 #ad_banners .ad_banner { position: absolute; top: 0; left: 0; display:none; cursor:pointer; }
 #ad_banners .ad_banner:first-child { display:block; }
+#inner_content p {font-weight:normal;}
+#inner_content img {max-width: 600px;border: 6px solid #FFF; -webkit-box-shadow: 2px 2px 5px #999; -moz-box-shadow: 2px 2px 5px #999; box-shadow: 2px 2px 5px #999; margin: 10px 0;}
 /* @end */
 
 /* @group Form -------------------------------------------------------------------------------------------------- */
@@ -65,12 +68,12 @@ form p input.right { float: right; clear: right; }
 /* @end */
 
 /* @group News -------------------------------------------------------------------------------------------------- */
-#news { overflow: hidden; }
-#news li { display: inline-block; float: left; clear: left; width: 250px; margin: 5px 12px 25px 0; word-wrap: break-word; }
-#news li.alt { float: right; clear: right; margin: 5px 0 5px 12px; }
-#news li h2 { font-weight: bold; }
-#news li h2 b { color: #F59830; }
-#news li p { font-weight: normal; }
+.news { overflow: hidden; }
+.news li { display: inline-block; float: left; clear: left; width: 250px; margin: 5px 12px 25px 0; word-wrap: break-word; }
+.news li.alt { float: right; clear: right; margin: 5px 0 5px 12px; }
+.news li h2 { font-weight: bold; }
+.news li h2 b { color: #F59830; }
+.news li p { font-weight: normal; }
 /* @end */
 
 /* @group Tournament Sponsorships ------------------------------------------------------------------------------- */
