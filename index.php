@@ -76,7 +76,7 @@ include('includes/header.php');
 		</div>
 		<div id="pfap_directors">
 			<h1>Putting For A Purpose Directors</h1>
-			<pv>Chairman/Co-Founder:<br>Honorable Mike Farhat</p>
+			<p>Chairman/Co-Founder:<br>Honorable Mike Farhat</p>
 			<p>Co-Chairman:<br>Mr. James McIntire</p>
 			<p>Board Member:<br>Mr. Jack Heller</p>
 			<p>President/Founder:<br>Mr. Jose Guzman</p>
