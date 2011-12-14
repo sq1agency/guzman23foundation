@@ -69,8 +69,8 @@ form p input.right { float: right; clear: right; }
 
 /* @group News -------------------------------------------------------------------------------------------------- */
 .news { overflow: hidden; }
-.news li { display: inline-block; float: left; clear: left; width: 250px; margin: 5px 12px 25px 0; word-wrap: break-word; }
-.news li.alt { float: right; clear: right; margin: 5px 0 5px 12px; }
+.news li { display: inline-block; float: left; clear: left; width: 250px; margin: 5px 12px 0 0; word-wrap: break-word; }
+.news li.alt { float: right; clear: right; margin: 5px 0 0 12px; }
 .news li h2 { font-weight: bold; }
 .news li h2 b { color: #F59830; }
 .news li p { font-weight: normal; }

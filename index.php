@@ -18,7 +18,7 @@ include('includes/header.php');
 			<ul class="news">
 				<li>
 					<h2>4/13/2012<br><b>Guzman23Foundation 1st Annual Celebrity Poker Tournament</b></h2>
-					<p>Please join us on April 13th 2012 for our first annual celebrity golf tournament to be held at the Hilton Hotel Southlake Town Square</p>
+					<p>Please join us on April 13th 2012 for our first annual celebrity poker tournament to be held at the Hilton Hotel Southlake Town Square</p>
 					<p class="button_wrap"><a href="/news/celebrity-poker-tournament.php" class="button">Read More</a></p>
 				</li>
 				<li class="alt">
