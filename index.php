@@ -10,7 +10,6 @@ include('includes/header.php');
 				<p>It&rsquo;s my desire to help families care for their loved ones in their own home as long as possible. A secondary goal is to help improve Alzheimer&rsquo;s facilities, making them a place where families feel their loved ones will be cared for with compassion.</p>
 			</div>
 		</div>
-		<div id="putting"></div>
 	</div>
 	<div id="content">
 		<div id="left">
